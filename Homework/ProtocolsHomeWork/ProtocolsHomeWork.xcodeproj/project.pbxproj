@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072C8CCF22FA3F4C002134A5 /* Cheetah.m in Sources */ = {isa = PBXBuildFile; fileRef = 072C8CCE22FA3F4C002134A5 /* Cheetah.m */; };
+		072C8CD222FA3FD1002134A5 /* Parrot.m in Sources */ = {isa = PBXBuildFile; fileRef = 072C8CD122FA3FD1002134A5 /* Parrot.m */; };
+		0775E69422F9ED8D0096F3A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E69322F9ED8D0096F3A8 /* AppDelegate.m */; };
+		0775E69722F9ED8D0096F3A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E69622F9ED8D0096F3A8 /* ViewController.m */; };
+		0775E69A22F9ED8D0096F3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0775E69822F9ED8D0096F3A8 /* Main.storyboard */; };
+		0775E69C22F9ED8F0096F3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0775E69B22F9ED8F0096F3A8 /* Assets.xcassets */; };
+		0775E69F22F9ED8F0096F3A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0775E69D22F9ED8F0096F3A8 /* LaunchScreen.storyboard */; };
+		0775E6A222F9ED8F0096F3A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6A122F9ED8F0096F3A8 /* main.m */; };
+		0775E6AF22FA2B4D0096F3A8 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6AE22FA2B4D0096F3A8 /* Human.m */; };
+		0775E6B422FA2C850096F3A8 /* Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6B322FA2C850096F3A8 /* Animals.m */; };
+		0775E6B722FA31960096F3A8 /* Homeless.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6B622FA31960096F3A8 /* Homeless.m */; };
+		0775E6BA22FA33750096F3A8 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6B922FA33750096F3A8 /* Runner.m */; };
+		0775E6BD22FA33D30096F3A8 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6BC22FA33D30096F3A8 /* Swimmer.m */; };
+		0775E6C022FA344B0096F3A8 /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6BF22FA344B0096F3A8 /* Jumper.m */; };
+		0775E6C322FA34890096F3A8 /* Pioneer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6C222FA34890096F3A8 /* Pioneer.m */; };
+		0775E6C622FA3A990096F3A8 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0775E6C522FA3A990096F3A8 /* Dog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		072C8CCD22FA3F4C002134A5 /* Cheetah.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cheetah.h; sourceTree = "<group>"; };
+		072C8CCE22FA3F4C002134A5 /* Cheetah.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cheetah.m; sourceTree = "<group>"; };
+		072C8CD022FA3FD1002134A5 /* Parrot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parrot.h; sourceTree = "<group>"; };
+		072C8CD122FA3FD1002134A5 /* Parrot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parrot.m; sourceTree = "<group>"; };
+		0775E68F22F9ED8D0096F3A8 /* ProtocolsHomeWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolsHomeWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0775E69222F9ED8D0096F3A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0775E69322F9ED8D0096F3A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0775E69522F9ED8D0096F3A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0775E69622F9ED8D0096F3A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0775E69922F9ED8D0096F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0775E69B22F9ED8F0096F3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0775E69E22F9ED8F0096F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0775E6A022F9ED8F0096F3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0775E6A122F9ED8F0096F3A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0775E6A922FA0C480096F3A8 /* Jumpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jumpers.h; sourceTree = "<group>"; };
+		0775E6AA22FA204A0096F3A8 /* Swimmers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swimmers.h; sourceTree = "<group>"; };
+		0775E6AB22FA23A80096F3A8 /* Runners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runners.h; sourceTree = "<group>"; };
+		0775E6AD22FA2B4D0096F3A8 /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		0775E6AE22FA2B4D0096F3A8 /* Human.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		0775E6B222FA2C850096F3A8 /* Animals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animals.h; sourceTree = "<group>"; };
+		0775E6B322FA2C850096F3A8 /* Animals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animals.m; sourceTree = "<group>"; };
+		0775E6B522FA31960096F3A8 /* Homeless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Homeless.h; sourceTree = "<group>"; };
+		0775E6B622FA31960096F3A8 /* Homeless.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homeless.m; sourceTree = "<group>"; };
+		0775E6B822FA33750096F3A8 /* Runner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		0775E6B922FA33750096F3A8 /* Runner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		0775E6BB22FA33D30096F3A8 /* Swimmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		0775E6BC22FA33D30096F3A8 /* Swimmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		0775E6BE22FA344B0096F3A8 /* Jumper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jumper.h; sourceTree = "<group>"; };
+		0775E6BF22FA344B0096F3A8 /* Jumper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jumper.m; sourceTree = "<group>"; };
+		0775E6C122FA34890096F3A8 /* Pioneer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pioneer.h; sourceTree = "<group>"; };
+		0775E6C222FA34890096F3A8 /* Pioneer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pioneer.m; sourceTree = "<group>"; };
+		0775E6C422FA3A990096F3A8 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		0775E6C522FA3A990096F3A8 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0775E68C22F9ED8D0096F3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0775E68622F9ED8D0096F3A8 = {
+			isa = PBXGroup;
+			children = (
+				0775E69122F9ED8D0096F3A8 /* ProtocolsHomeWork */,
+				0775E69022F9ED8D0096F3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0775E69022F9ED8D0096F3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0775E68F22F9ED8D0096F3A8 /* ProtocolsHomeWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0775E69122F9ED8D0096F3A8 /* ProtocolsHomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				0775E69222F9ED8D0096F3A8 /* AppDelegate.h */,
+				0775E69322F9ED8D0096F3A8 /* AppDelegate.m */,
+				0775E6AC22FA2B390096F3A8 /* Protocols */,
+				0775E6B022FA2C570096F3A8 /* Humans */,
+				0775E6B122FA2C610096F3A8 /* Animals */,
+				0775E69522F9ED8D0096F3A8 /* ViewController.h */,
+				0775E69622F9ED8D0096F3A8 /* ViewController.m */,
+				0775E69822F9ED8D0096F3A8 /* Main.storyboard */,
+				0775E69B22F9ED8F0096F3A8 /* Assets.xcassets */,
+				0775E69D22F9ED8F0096F3A8 /* LaunchScreen.storyboard */,
+				0775E6A022F9ED8F0096F3A8 /* Info.plist */,
+				0775E6A122F9ED8F0096F3A8 /* main.m */,
+			);
+			path = ProtocolsHomeWork;
+			sourceTree = "<group>";
+		};
+		0775E6AC22FA2B390096F3A8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0775E6A922FA0C480096F3A8 /* Jumpers.h */,
+				0775E6AA22FA204A0096F3A8 /* Swimmers.h */,
+				0775E6AB22FA23A80096F3A8 /* Runners.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0775E6B022FA2C570096F3A8 /* Humans */ = {
+			isa = PBXGroup;
+			children = (
+				0775E6AD22FA2B4D0096F3A8 /* Human.h */,
+				0775E6AE22FA2B4D0096F3A8 /* Human.m */,
+				0775E6B522FA31960096F3A8 /* Homeless.h */,
+				0775E6B622FA31960096F3A8 /* Homeless.m */,
+				0775E6B822FA33750096F3A8 /* Runner.h */,
+				0775E6B922FA33750096F3A8 /* Runner.m */,
+				0775E6BB22FA33D30096F3A8 /* Swimmer.h */,
+				0775E6BC22FA33D30096F3A8 /* Swimmer.m */,
+				0775E6BE22FA344B0096F3A8 /* Jumper.h */,
+				0775E6BF22FA344B0096F3A8 /* Jumper.m */,
+				0775E6C122FA34890096F3A8 /* Pioneer.h */,
+				0775E6C222FA34890096F3A8 /* Pioneer.m */,
+			);
+			path = Humans;
+			sourceTree = "<group>";
+		};
+		0775E6B122FA2C610096F3A8 /* Animals */ = {
+			isa = PBXGroup;
+			children = (
+				0775E6B222FA2C850096F3A8 /* Animals.h */,
+				0775E6B322FA2C850096F3A8 /* Animals.m */,
+				0775E6C422FA3A990096F3A8 /* Dog.h */,
+				0775E6C522FA3A990096F3A8 /* Dog.m */,
+				072C8CCD22FA3F4C002134A5 /* Cheetah.h */,
+				072C8CCE22FA3F4C002134A5 /* Cheetah.m */,
+				072C8CD022FA3FD1002134A5 /* Parrot.h */,
+				072C8CD122FA3FD1002134A5 /* Parrot.m */,
+			);
+			path = Animals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0775E68E22F9ED8D0096F3A8 /* ProtocolsHomeWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0775E6A522F9ED8F0096F3A8 /* Build configuration list for PBXNativeTarget "ProtocolsHomeWork" */;
+			buildPhases = (
+				0775E68B22F9ED8D0096F3A8 /* Sources */,
+				0775E68C22F9ED8D0096F3A8 /* Frameworks */,
+				0775E68D22F9ED8D0096F3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolsHomeWork;
+			productName = ProtocolsHomeWork;
+			productReference = 0775E68F22F9ED8D0096F3A8 /* ProtocolsHomeWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0775E68722F9ED8D0096F3A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Nikita Shumilin";
+				TargetAttributes = {
+					0775E68E22F9ED8D0096F3A8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 0775E68A22F9ED8D0096F3A8 /* Build configuration list for PBXProject "ProtocolsHomeWork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0775E68622F9ED8D0096F3A8;
+			productRefGroup = 0775E69022F9ED8D0096F3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0775E68E22F9ED8D0096F3A8 /* ProtocolsHomeWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0775E68D22F9ED8D0096F3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0775E69F22F9ED8F0096F3A8 /* LaunchScreen.storyboard in Resources */,
+				0775E69C22F9ED8F0096F3A8 /* Assets.xcassets in Resources */,
+				0775E69A22F9ED8D0096F3A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0775E68B22F9ED8D0096F3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072C8CD222FA3FD1002134A5 /* Parrot.m in Sources */,
+				0775E6C622FA3A990096F3A8 /* Dog.m in Sources */,
+				0775E6BD22FA33D30096F3A8 /* Swimmer.m in Sources */,
+				0775E6BA22FA33750096F3A8 /* Runner.m in Sources */,
+				0775E6C322FA34890096F3A8 /* Pioneer.m in Sources */,
+				0775E69722F9ED8D0096F3A8 /* ViewController.m in Sources */,
+				0775E6A222F9ED8F0096F3A8 /* main.m in Sources */,
+				0775E69422F9ED8D0096F3A8 /* AppDelegate.m in Sources */,
+				0775E6B422FA2C850096F3A8 /* Animals.m in Sources */,
+				0775E6AF22FA2B4D0096F3A8 /* Human.m in Sources */,
+				0775E6C022FA344B0096F3A8 /* Jumper.m in Sources */,
+				072C8CCF22FA3F4C002134A5 /* Cheetah.m in Sources */,
+				0775E6B722FA31960096F3A8 /* Homeless.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0775E69822F9ED8D0096F3A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0775E69922F9ED8D0096F3A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0775E69D22F9ED8F0096F3A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0775E69E22F9ED8F0096F3A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0775E6A322F9ED8F0096F3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0775E6A422F9ED8F0096F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0775E6A622F9ED8F0096F3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6XPBTM28;
+				INFOPLIST_FILE = ProtocolsHomeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikshhu.ProtocolsHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0775E6A722F9ED8F0096F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K6XPBTM28;
+				INFOPLIST_FILE = ProtocolsHomeWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikshhu.ProtocolsHomeWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0775E68A22F9ED8D0096F3A8 /* Build configuration list for PBXProject "ProtocolsHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0775E6A322F9ED8F0096F3A8 /* Debug */,
+				0775E6A422F9ED8F0096F3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0775E6A522F9ED8F0096F3A8 /* Build configuration list for PBXNativeTarget "ProtocolsHomeWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0775E6A622F9ED8F0096F3A8 /* Debug */,
+				0775E6A722F9ED8F0096F3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0775E68722F9ED8D0096F3A8 /* Project object */;
+}
