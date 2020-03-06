@@ -39,6 +39,7 @@
     
     CGPoint origin = CGPointZero;
 
+    // Переводить пространство одной вьюхи в другую
     origin = [self.view convertPoint:origin toView:self.view.window];
     
     NSLog(@"origin = %@", NSStringFromCGPoint(origin));
